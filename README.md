@@ -485,6 +485,10 @@ curl -X POST "http://localhost:4000/link-analysis" \
 
 ---
 
+
+<img width="1773" height="960" alt="Screenshot 2026-11-20 143852" src="https://github.com/user-attachments/assets/7d4ebe1d-c8c7-4f6d-a535-2643cbb7daeb" />
+
+
 ## Testing & Quality Assurance
 
 The repository includes a comprehensive, automated test suite built with `pytest`:
