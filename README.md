@@ -277,204 +277,219 @@ curl -X POST "http://localhost:4000/link-analysis" \
 ```json
 {
   "success": true,
-  "website": "https://stripe.com",
+  "website": "https://dxora.com",
   "brand": {
-    "name": "Stripe",
-    "category": "Financial Infrastructure & Payment Processing",
-    "summary": "Stripe is a financial infrastructure platform for businesses, powering payments for online and in-person retailers, subscription businesses, software platforms, and marketplaces."
+    "name": "Dxora Technologies",
+    "category": "Software Development & Digital Transformation",
+    "summary": "Dxora Technologies is a premier software engineering agency specializing in custom software development, enterprise AI solutions, mobile applications, and cloud infrastructure. With over 16 years of experience, they deliver innovative solutions that drive digital transformation for businesses."
   },
   "analysis": {
     "competitor_analysis": {
-      "brand_overview": "Stripe provides full-stack financial infrastructure, payments APIs, global payout capabilities, and fraud prevention for digital businesses.",
-      "main_business_category": "Financial Infrastructure & Payment Processing",
+      "brand_overview": "Dxora Technologies offers a range of services including custom software development, enterprise AI, mobile app development, and cloud solutions, positioning itself as a leader in digital transformation.",
+      "main_business_category": "Software Development & Digital Transformation",
       "main_products_and_services": [
-        "Payment Processing (Payments)",
-        "Billing & Subscriptions (Billing)",
-        "Fraud Prevention & Risk Management (Radar)"
+        "Custom Software Development",
+        "Enterprise AI & LLM Engineering",
+        "Mobile App Development",
+        "Web App Development",
+        "Data Engineering & Analytics"
       ],
       "competitors": [
         {
-          "name": "Adyen",
-          "main_service": "Unified Global Omnichannel Payments",
-          "target_market": "Large Enterprise & Multinational Corporations",
-          "key_strength": "Direct single-platform global card acquiring",
-          "weakness_or_gap": "Higher barrier to entry and onboarding complexity for early-stage startups",
-          "opportunity": "Win emerging startups and tech platforms with developer-first agility and no minimums"
+          "name": "Turing",
+          "main_service": "Remote software development talent",
+          "target_market": "SMBs and Enterprises",
+          "key_strength": "Access to a global talent pool",
+          "weakness_or_gap": "Limited focus on AI solutions",
+          "opportunity": "Leverage AI expertise to attract clients seeking AI-driven solutions."
         },
         {
-          "name": "PayPal / Braintree",
-          "main_service": "Digital Wallets and Online Merchant Processing",
-          "target_market": "Consumer E-Commerce and Global Merchants",
-          "key_strength": "Ubiquitous consumer brand recognition and trusted wallet checkout",
-          "weakness_or_gap": "Complex fee structures and legacy API integrations",
-          "opportunity": "Provide cleaner developer APIs, unified billing, and transparent recurring payment flows"
+          "name": "Cognizant",
+          "main_service": "IT services and consulting",
+          "target_market": "Large Enterprises",
+          "key_strength": "Established brand with extensive resources",
+          "weakness_or_gap": "Higher pricing compared to smaller firms",
+          "opportunity": "Offer competitive pricing and personalized service to attract mid-sized businesses."
         },
         {
-          "name": "Square (Block)",
-          "main_service": "Point-of-Sale Hardware and In-Person Retail Payments",
-          "target_market": "Small-to-Medium Local Retailers and Food Businesses",
-          "key_strength": "Dominant turnkey hardware ecosystem for in-person transactions",
-          "weakness_or_gap": "Less specialized in complex global multi-currency marketplace platforms",
-          "opportunity": "Capture digital-native businesses expanding into unified omnichannel commerce"
+          "name": "Accenture",
+          "main_service": "Consulting and professional services",
+          "target_market": "Global Enterprises",
+          "key_strength": "Strong brand recognition and diverse service offerings",
+          "weakness_or_gap": "Complex service structure may confuse clients",
+          "opportunity": "Simplify offerings and focus on niche markets like AI and mobile development."
         }
       ],
       "strengths": [
-        "Industry-standard developer APIs and extensive documentation",
-        "Comprehensive suite covering billing, fraud, tax, and issuance",
-        "Ultra-reliable 99.999% uptime during peak commercial shopping periods"
+        "Expertise in Enterprise AI and LLM Engineering",
+        "Strong track record with over 16 years of experience",
+        "Comprehensive service offerings across software and cloud solutions"
       ],
       "competitive_advantages": [
-        "Fastest developer implementation time in the payments industry",
-        "Modular ecosystem connecting card issuance, automated tax, and global treasury"
+        "Custom solutions tailored to client needs",
+        "Agility and flexibility compared to larger competitors",
+        "Strong focus on emerging technologies like Generative AI"
       ],
       "opportunities": [
-        "Expand localization for emerging digital economies across Asia and Latin America",
-        "Deepen embedded AI-driven fraud mitigation and chargeback automation"
+        "Growing demand for AI-driven solutions",
+        "Expansion into new geographical markets",
+        "Partnerships with tech companies for enhanced service offerings"
       ]
     },
     "target_search_queries": [
       {
-        "query": "Best payment gateway for SaaS and subscription billing",
-        "platforms": ["Google"],
+        "query": "Enterprise AI solutions for businesses",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
         "intent": "Service Discovery",
-        "business_relevance": "Direct search intent by software founders seeking automated recurring revenue solutions",
-        "target_audience": "SaaS Founders, CTOs, and Product Managers"
+        "business_relevance": "This query targets businesses looking for AI solutions, driving qualified leads.",
+        "target_audience": "Business decision-makers in tech and operations roles"
       },
       {
-        "query": "Enterprise global payment orchestration platforms",
-        "platforms": ["LinkedIn"],
-        "intent": "B2B Search",
-        "business_relevance": "Evaluating vendor capabilities for multinational financial infrastructure",
-        "target_audience": "Chief Financial Officers (CFOs) and Enterprise Procurement Heads"
+        "query": "Custom software development services",
+        "platforms": [
+          "Google",
+          "Facebook"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "Attracts companies needing tailored software solutions.",
+        "target_audience": "SMBs and Enterprises seeking custom solutions"
       },
       {
-        "query": "Fastest API payment integration for developer startups",
-        "platforms": ["X"],
-        "intent": "Tech Discovery",
-        "business_relevance": "Developer sentiment and word-of-mouth technical adoption",
-        "target_audience": "Full-Stack Developers and Software Architects"
+        "query": "Mobile app development for startups",
+        "platforms": [
+          "Google",
+          "Instagram"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "Targets startups looking for mobile app development services.",
+        "target_audience": "Startup founders and entrepreneurs"
       },
       {
-        "query": "How to accept international credit cards for small business",
-        "platforms": ["Facebook"],
-        "intent": "Business Discovery",
-        "business_relevance": "Educating traditional merchants transitioning into global online commerce",
-        "target_audience": "SMB Owners and E-Commerce Entrepreneurs"
+        "query": "Cloud architecture consulting",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "Captures leads from businesses seeking cloud solutions.",
+        "target_audience": "IT managers and CTOs"
       },
       {
-        "query": "Modern checkout design and high-conversion payment UI",
-        "platforms": ["Instagram"],
-        "intent": "Inspiration",
-        "business_relevance": "Visual appeal and frictionless checkout inspiration",
-        "target_audience": "UX/UI Designers and E-Commerce Growth Leads"
+        "query": "Generative AI solutions for enterprises",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Service Discovery",
+        "business_relevance": "Targets enterprises interested in leveraging generative AI.",
+        "target_audience": "Enterprise technology leaders"
       }
     ],
     "seo_improvements": {
-      "primary_keyword": "Online Payment Gateway & Infrastructure",
+      "primary_keyword": "Enterprise AI Solutions",
       "secondary_keywords": [
-        "subscription billing software",
-        "global payment processing API",
-        "e-commerce checkout solution"
+        "Custom Software Development",
+        "Mobile App Development",
+        "Cloud Solutions",
+        "Data Engineering",
+        "Generative AI"
       ],
       "long_tail_keywords": [
-        "best developer-friendly payment processor for SaaS startups",
-        "how to automate recurring subscription payments globally",
-        "PCI compliant checkout integration for marketplaces"
+        "Best enterprise AI solutions for businesses",
+        "Custom software development for startups",
+        "Mobile app development services for enterprises",
+        "Cloud architecture consulting for businesses",
+        "Generative AI solutions for digital transformation"
       ],
-      "recommended_title": "Stripe | Financial Infrastructure for the Internet",
-      "meta_description": "Accept payments, scale subscription billing, and manage business finances online with Stripe's world-class APIs and developer tools. Get started in minutes.",
+      "recommended_title": "Dxora Technologies - Leading Enterprise AI Solutions Provider",
+      "meta_description": "Discover Dxora Technologies for custom software, enterprise AI, and cloud solutions. Transform your business with our expert services.",
       "supporting_content": [
-        "Comprehensive Global Tax & Compliance Knowledge Hub",
-        "Interactive Payment Integration Guides for Modern Web Frameworks (Next.js, Django, FastAPI)",
-        "Customer Case Studies highlighting high-volume Black Friday conversion metrics",
-        "Frequently Asked Questions (FAQ) regarding dispute management and payout timelines"
+        "Dedicated landing page for enterprise AI solutions",
+        "Case studies showcasing successful software projects",
+        "In-depth FAQ covering AI and software development",
+        "Blog series on digital transformation trends"
       ]
     },
     "top_services": [
       {
-        "service_name": "Stripe Payments",
-        "description": "Complete global payment processing supporting over 135+ currencies and dozens of local payment methods.",
-        "target_industry": "E-Commerce, Digital Platforms, and Retail",
-        "target_customer": "Online merchants and international businesses",
-        "main_benefit": "Maximize authorization rates and eliminate checkout friction",
+        "service_name": "Custom Software Development",
+        "description": "Tailored software solutions designed to meet specific business needs.",
+        "target_industry": "Various industries including tech and finance",
+        "target_customer": "Businesses seeking custom software solutions",
+        "main_benefit": "Increased efficiency and productivity through tailored applications.",
         "is_inferred": false
       },
       {
-        "service_name": "Stripe Billing",
-        "description": "Flexible subscription management and recurring invoice automation with smart retry logic.",
-        "target_industry": "Software as a Service (SaaS) and Media",
-        "target_customer": "Subscription-based businesses and recurring billing companies",
-        "main_benefit": "Reduce churn and automate customer subscription lifecycles",
+        "service_name": "Enterprise AI & LLM Engineering",
+        "description": "Development of AI solutions leveraging large language models for business applications.",
+        "target_industry": "Tech and enterprise sectors",
+        "target_customer": "Companies looking to integrate AI into their operations",
+        "main_benefit": "Enhanced decision-making and automation capabilities.",
         "is_inferred": false
       },
       {
-        "service_name": "Stripe Connect",
-        "description": "Multi-party payment routing and onboarding engine designed specifically for digital marketplaces.",
-        "target_industry": "Marketplaces and Collaborative Economy",
-        "target_customer": "Platforms connecting buyers and independent sellers",
-        "main_benefit": "Seamless KYC compliance, seller onboarding, and split payouts",
+        "service_name": "Mobile App Development",
+        "description": "Creation of user-friendly mobile applications for various platforms.",
+        "target_industry": "Consumer services and retail",
+        "target_customer": "Businesses wanting to reach mobile users",
+        "main_benefit": "Increased customer engagement and accessibility.",
         "is_inferred": false
       },
       {
-        "service_name": "Stripe Radar",
-        "description": "Machine-learning fraud prevention system trained on billions of global transaction signals.",
-        "target_industry": "High-risk E-Commerce & Financial Services",
-        "target_customer": "Risk and compliance managers",
-        "main_benefit": "Block fraudulent transactions while preserving legitimate sales conversions",
+        "service_name": "Cloud Architecture & DevOps",
+        "description": "Design and implementation of cloud infrastructure and DevOps practices.",
+        "target_industry": "IT and tech companies",
+        "target_customer": "Organizations transitioning to cloud solutions",
+        "main_benefit": "Improved scalability and operational efficiency.",
         "is_inferred": false
       },
       {
-        "service_name": "Stripe Tax",
-        "description": "Automated sales tax, VAT, and GST calculation and reporting across global tax jurisdictions.",
-        "target_industry": "Cross-Border Digital Commerce",
-        "target_customer": "Growing international businesses",
-        "main_benefit": "Ensure global compliance without manual tax code management",
+        "service_name": "Data Engineering & Analytics",
+        "description": "Services focused on data management and analytics for informed decision-making.",
+        "target_industry": "Various industries",
+        "target_customer": "Businesses needing data-driven insights",
+        "main_benefit": "Enhanced business intelligence and strategic planning.",
         "is_inferred": false
       }
     ],
     "target_audience": {
       "primary_audience": [
-        "Software Founders and Technical Leaders",
-        "E-Commerce Directors",
-        "Product Managers and Lead Engineers"
+        "Business decision-makers",
+        "IT managers"
       ],
       "secondary_audience": [
-        "Chief Financial Officers (CFOs)",
-        "Finance Operations and Billing Administrators",
-        "Compliance and Risk Analysts"
+        "Startup founders",
+        "Tech entrepreneurs"
       ],
       "industries": [
-        "SaaS & Cloud Computing",
-        "Digital Retail & E-Commerce",
-        "Online Marketplaces",
-        "Creator Economy Platforms"
+        "Technology",
+        "Finance",
+        "Healthcare"
       ],
       "business_types": [
-        "Early-Stage Startups",
-        "High-Growth Scaleups",
-        "Global Enterprises"
+        "Startups",
+        "SMBs",
+        "Enterprise"
       ],
       "customer_profiles": [
-        "CTO / Lead Developer",
-        "Head of Growth / E-Commerce Manager",
-        "VP of Financial Operations"
+        "CTOs",
+        "Product Managers"
       ],
-      "geographical_focus": "Global (135+ Currencies, 50+ Countries)",
+      "geographical_focus": "Global",
       "customer_needs": [
-        "Need for rapid, error-free API integration",
-        "Requirement for high payment success and low decline rates",
-        "Desire for unified billing, invoicing, and automated tax compliance"
+        "Need for custom software solutions",
+        "Desire to leverage AI for business efficiency"
       ],
       "potential_interests": [
-        "Developer Productivity",
-        "Conversion Rate Optimization",
-        "Global Expansion",
-        "Financial Automation"
+        "Digital transformation",
+        "Cloud computing"
       ],
       "recommended_marketing_segments": [
-        "Tech startup founders active on LinkedIn and X",
-        "Shopify and custom e-commerce store operators seeking checkout optimization",
-        "B2B SaaS product teams planning international subscription rollouts"
+        "Tech startups for outreach campaigns",
+        "SMBs looking for digital solutions"
       ]
     }
   }
