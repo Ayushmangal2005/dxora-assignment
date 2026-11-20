@@ -269,7 +269,7 @@ Explore and execute API calls via your browser:
 ```bash
 curl -X POST "http://localhost:4000/link-analysis" \
   -H "Content-Type: application/json" \
-  -d '{"url": "https://stripe.com"}'
+  -d '{"url": "https://dxora.com"}'
 ```
 
 #### Sample Response (Truncated for readability)
