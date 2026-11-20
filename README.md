@@ -194,8 +194,6 @@ ai-link-analysis/
 │
 ├── .env.example                 # Example environment template
 ├── requirements.txt             # Project dependencies
-├── Dockerfile                   # Production Docker container image
-├── docker-compose.yml           # Multi-container orchestration
 └── README.md                    # Documentation & research report
 ```
 
@@ -535,16 +533,7 @@ tests/test_link_analysis.py::TestAPIRoutes::test_successful_analysis_flow PASSED
 
 ## Deployment Guide
 
-### Option 1: Docker
-```bash
-# Build the container
-docker build -t ai-link-analysis .
-
-# Run container on port 4000
-docker run -d -p 4000:4000 --env-file .env ai-link-analysis
-```
-
-### Option 2: Render / Railway / Cloud VPS
+### Deploying to Render / Railway / Cloud VPS
 1. Push repository to GitHub.
 2. Link the repository to your PaaS platform (e.g. Render Web Service).
 3. Set the Environment:
