@@ -240,9 +240,14 @@ class TestAPIRoutes:
 
     @patch("socket.getaddrinfo")
     @patch("app.services.website_extractor.WebsiteExtractor.fetch_html", new_callable=AsyncMock)
-    def test_successful_analysis_flow(self, mock_fetch, mock_getaddrinfo):
+    @patch("app.services.llm_service.LLMService.analyze_content", new_callable=AsyncMock)
+    def test_successful_analysis_flow(self, mock_analyze, mock_fetch, mock_getaddrinfo):
         mock_getaddrinfo.return_value = [(2, 1, 6, "", ("93.184.216.34", 0))]
         mock_fetch.return_value = SAMPLE_HTML
+        
+        # Use deterministic fallback generator for offline testing
+        service = LLMService()
+        mock_analyze.side_effect = lambda formatted, raw: service._generate_fallback_analysis(raw)
 
         response = client.post("/link-analysis", json={"url": "https://acmesoftware.com"})
         assert response.status_code == 200
